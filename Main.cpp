@@ -61,7 +61,7 @@ bool initiateMatrix();
  * */
 void ShowAdjMx();
 /**
- * Test Case of the project
+ * Test Case of the project "Included in the pdf file"
  * */
 void TestCase();
 
@@ -129,12 +129,18 @@ void DestroyBiTree(BTree T);
 //====================================================================
 int main(void)
 {
-    TestCase();
+    
+    TestCase(); //Comment this if you don't want to use the test case given in the pdf file 
+                // and un-comment the following block if you want to fill the Adjaceny Matrix yourself
+
+
     // if(!initiateMatrix())
     // {
     //     // Terminate the program if the adjacency is invalid
     //     return 0;
     // }
+
+
     cout<<"Adjacency Matrix: "<<endl;
     ShowAdjMx();
     // Variable support fot the root of the tree
