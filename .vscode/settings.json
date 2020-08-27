@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "xmemory0": "cpp",
+        "xstring": "cpp",
+        "xiosbase": "cpp",
+        "xmemory": "cpp"
+    }
+}
